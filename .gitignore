@@ -4,8 +4,20 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
 # Other files and folders
-.settings/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 # Executables
 *.swf
